@@ -1,5 +1,5 @@
 #Pull base  image.
-FROM chegoujk/java8:8u131
+FROM chegoujk/java8:java8
 
 MAINTAINER ckeita@e-biz.fr
 
