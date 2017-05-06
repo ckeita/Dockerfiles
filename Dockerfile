@@ -18,8 +18,5 @@ EXPOSE 50000
 # Install git
 RUN apt-get update && apt-get -y install git
 
-# Print initial admin user
-RUN cat /root/.jenkins/secrets/initialAdminPassword
-
 # RUN the .war
 CMD ["java", "-jar", "/home/jenkins.war"]
